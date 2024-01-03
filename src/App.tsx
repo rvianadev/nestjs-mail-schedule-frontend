@@ -1,9 +1,5 @@
-import { Nav } from 'components';
+import { AppRoutes } from 'routes';
 
 export default function App() {
-  return (
-    <div className="App">
-      <Nav />
-    </div>
-  );
+  return <AppRoutes />;
 }
