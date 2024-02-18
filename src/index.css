@@ -24,7 +24,7 @@ body {
 }
 
 .form label {
-  @apply block py-2;
+  @apply block py-2 font-bold;
 }
 
 .form input {
@@ -33,4 +33,8 @@ body {
 
 .form button {
   @apply mt-4;
+}
+
+.error-text {
+  @apply text-red-600 text-sm py-1;
 }
